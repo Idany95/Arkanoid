@@ -1,0 +1,5 @@
+#block definitions
+bdef symbol:l width:30 height:50 hit_points:3 fill-3:image(block_images/watermelon_block.png) fill-2:image(block_images/pineapple_block.png) fill-1:color(RGB(165,244,239)) stroke:color(black)
+
+#spacers definitions
+sdef symbol:- width:50

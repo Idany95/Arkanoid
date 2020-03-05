@@ -1,0 +1,38 @@
+START_LEVEL
+level_name:Pool
+ball_velocities:45,10 20,10 0,10
+background:image(background_images/pool.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/roller_coaster_block_definitions.txt
+blocks_start_x:30
+blocks_start_y:50
+row_height:30
+num_blocks:43
+START_BLOCKS
+-l---lllll---l
+-l--lllllll--l
+-l-lllllllll-l
+-l--lllllll--l
+-l---lllll---l
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+level_name:Roller Coaster
+ball_velocities:45,15 60,15
+background:image(background_images/roller_coaster.png)
+paddle_speed:10
+paddle_width:100
+block_definitions:definitions/roller_coaster_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:80
+num_blocks:14
+START_BLOCKS
+---------lllll
+----------llll
+-----------lll
+------------ll
+END_BLOCKS
+END_LEVEL
